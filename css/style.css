@@ -17,14 +17,12 @@
 header {
     
     margin: 15px;
-    padding: 20px;
+    padding: 10px;
     background-color: #948c75;
     border: solid;
     border-radius: 15px;
     border-color: #7a6a53;
-    /* display: flex; */
     display: grid;
-    /* flex-wrap: wrap; */
     grid-template-columns: repeat( 3 , 1.5fr );
     grid-template-rows: 70px 60px;
     grid-template-areas:
@@ -33,7 +31,7 @@ header {
     
 }
 
-h1 {
+.h1 {
 
     font-size: 25px;
     color: #d5ded9;
@@ -41,6 +39,7 @@ h1 {
     justify-self: center;
     align-self: center;
     grid-area: h1 ;
+    text-transform: uppercase;
     
 }
 
@@ -79,7 +78,11 @@ li {
 
         color:#d5ded9 ;
     
-    }
+ }
+ 
+ a:link {
+    color:#948c75
+}
 
 
 .navImagen{
@@ -87,6 +90,7 @@ li {
 grid-area: navImagen ;
 justify-self: center;
 align-self: center;
+color: #d5ded9;
 
 }
 
