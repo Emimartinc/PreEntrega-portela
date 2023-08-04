@@ -107,5 +107,8 @@ main{
     align-self: center;
     justify-self: center;
 }
+select{
+    text-transform: uppercase;
+}
 
 
