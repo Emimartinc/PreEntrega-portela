@@ -95,5 +95,17 @@ align-self: center;
 color: #d5ded9;
 
 }
+main{
+    display: grid;
+}
+
+.formulario {
+    display: inline-block;
+    border-color: #7a6a53;
+    font-family: 'Electrolize', sans-serif;
+    text-transform: uppercase;
+    align-self: center;
+    justify-self: center;
+}
 
 
