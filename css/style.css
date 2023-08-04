@@ -37,9 +37,11 @@ header {
     color: #d5ded9;
     font-family:'Electrolize', sans-serif;
     justify-self: center;
+    justify-content: center;
     align-self: center;
+    align-content: center;
     grid-area: h1 ;
-    text-transform: uppercase;
+    text-transform: uppercase ;
     
 }
 
@@ -79,9 +81,9 @@ li {
         color:#d5ded9 ;
     
  }
- 
+
  a:link {
-    color:#948c75
+    color:#d5ded9
 }
 
 
