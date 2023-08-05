@@ -47,6 +47,17 @@ h2{
     font-family: 'Electrolize', sans-serif;
     text-align: center;
 }
+h3{
+    font-family: 'Electrolize', sans-serif;
+    text-align: center;
+
+}
+
+.listaDescriptiva {
+
+
+
+}
 
 
 nav{
@@ -65,7 +76,7 @@ nav{
 
 
 
-li {
+.link {
 
     display: inline;
     font-size: 20px;
@@ -100,13 +111,11 @@ color: #d5ded9;
 
 }
 
-.mainCartas{
-    
+.mainFormulario {
+
     display: grid;
-    grid-template-columns: repeat( 3 , 1fr);
-    grid-template-rows: repeat( 4 , 1fr);
-    align-items: center;
-    justify-items: center;
+    justify-content: center;
+    align-content: center;
 
 }
 
@@ -117,7 +126,25 @@ color: #d5ded9;
     text-transform: uppercase;
     align-self: center;
     justify-self: center;
+    align-items: center;
 }
+.mainCartas{
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content:space-between;
+   
+    
+    /* display: grid;
+    grid-template-columns: repeat( 3 , 1fr);
+    grid-template-rows: repeat( 4 , 1fr);
+    align-items: center;
+    justify-items: center; */
+
+}
+
 
 .textoCartas{
     text-transform: uppercase;
