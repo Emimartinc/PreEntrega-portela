@@ -45,6 +45,12 @@ header {
     
 }
 
+h2{
+    font-family: 'Electrolize', sans-serif;
+    text-align: center;
+}
+
+
 nav{
     
     grid-area: nav ;
@@ -95,8 +101,11 @@ align-self: center;
 color: #d5ded9;
 
 }
+
 main{
+    
     display: grid;
+
 }
 
 .formulario {
@@ -110,5 +119,17 @@ main{
 select{
     text-transform: uppercase;
 }
+.envio{ 
+    border: #7a6a53;
+    background-color: #948c75;
+    border-radius: 5px;
+    color:#99b2b7;
+    margin: 15px;
+    padding: 10px;
+}
 
+.textoUbi {
+    text-align: center;
+    font-family: 'Electrolize', sans-serif;
+    }
 
