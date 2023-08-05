@@ -37,9 +37,7 @@ header {
     color: #d5ded9;
     font-family:'Electrolize', sans-serif;
     justify-self: center;
-    justify-content: center;
     align-self: center;
-    align-content: center;
     grid-area: h1 ;
     text-transform: uppercase ;
     
@@ -102,9 +100,13 @@ color: #d5ded9;
 
 }
 
-main{
+.mainCartas{
     
     display: grid;
+    grid-template-columns: repeat( 3 , 1fr);
+    grid-template-rows: repeat( 4 , 1fr);
+    align-items: center;
+    justify-items: center;
 
 }
 
@@ -116,11 +118,26 @@ main{
     align-self: center;
     justify-self: center;
 }
+
+.textoCartas{
+    text-transform: uppercase;
+    font-family: 'Electrolize', sans-serif;
+
+
+}
+.carta{
+    background-color:#7a6a53;
+    text-align: center;
+
+
+}
 select{
+
     text-transform: uppercase;
 }
 .envio{ 
-    border: #7a6a53;
+    border-color: #7a6a53;
+    border: solid;
     background-color: #948c75;
     border-radius: 5px;
     color:#99b2b7;
@@ -131,5 +148,19 @@ select{
 .textoUbi {
     text-align: center;
     font-family: 'Electrolize', sans-serif;
+
     }
 
+Footer
+{
+    margin: 20px;
+    padding: 15px;
+    background-color: #948c75 ;
+    border-radius: 10px;
+    border: solid;
+    border-color: #7a6a53;
+    font-family: 'Electrolize', sans-serif;
+    text-transform: uppercase;
+
+
+}
