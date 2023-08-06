@@ -1,3 +1,6 @@
+               /* FUENTE */
+
+
 @font-face {
     font-family: 'Electrolize';
     font-style: normal;
@@ -7,6 +10,10 @@
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
     
   }
+
+
+                   /* CUERPO */
+
 
   body {
 
@@ -31,6 +38,8 @@ header {
     
 }
 
+                  /* LOS H1, H2, H3. */
+
 .h1 {
 
     font-size: 25px;
@@ -53,12 +62,8 @@ h3{
 
 }
 
-.listaDescriptiva {
 
-
-
-}
-
+                /* NAVEGADOR */
 
 nav{
     
@@ -101,13 +106,23 @@ nav{
     color:#d5ded9
 }
 
+             /* IMAGEN DEL HEADER */
 
-.navImagen{
+
+.headerImagen{
 
 grid-area: navImagen ;
 justify-self: center;
 align-self: center;
-color: #d5ded9;
+
+
+}
+
+              /* LOS MAIN */
+
+.mainIndex {
+
+    background-color: #948c75;
 
 }
 
@@ -119,6 +134,19 @@ color: #d5ded9;
 
 }
 
+.mainCartas{
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    column-gap: 5px;
+    row-gap: 25px;
+    
+    
+}
+
+             /* FORMULARIO PAGINA CONTACTO */
+
 .formulario {
     display: inline-block;
     border-color: #7a6a53;
@@ -128,24 +156,22 @@ color: #d5ded9;
     justify-self: center;
     align-items: center;
 }
-.mainCartas{
-    
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-items: stretch;
-    align-content:space-between;
-   
-    
-    /* display: grid;
-    grid-template-columns: repeat( 3 , 1fr);
-    grid-template-rows: repeat( 4 , 1fr);
-    align-items: center;
-    justify-items: center; */
 
+
+select{
+
+    text-transform: uppercase;
 }
-
-
+.btnnvio{ 
+    border-color: #7a6a53;
+    border: solid;
+    background-color: #948c75;
+    border-radius: 5px;
+    color:#99b2b7;
+    margin: 15px;
+    padding: 10px;
+}
+                         /* CARTAS DE RAPARACIONES */
 .textoCartas{
     text-transform: uppercase;
     font-family: 'Electrolize', sans-serif;
@@ -158,19 +184,6 @@ color: #d5ded9;
 
 
 }
-select{
-
-    text-transform: uppercase;
-}
-.envio{ 
-    border-color: #7a6a53;
-    border: solid;
-    background-color: #948c75;
-    border-radius: 5px;
-    color:#99b2b7;
-    margin: 15px;
-    padding: 10px;
-}
 
 .textoUbi {
     text-align: center;
@@ -178,7 +191,8 @@ select{
 
     }
 
-Footer
+                             /* PIE DE PAGINA */
+footer
 {
     margin: 20px;
     padding: 15px;
