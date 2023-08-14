@@ -73,6 +73,12 @@ main section article .listaDescriptiva {
   text-transform: uppercase;
 }
 
+main section article h4 {
+  font-family: "Electrolize", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 main section article .buscaRemoto {
   font-family: "Electrolize", sans-serif;
 }
