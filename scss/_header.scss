@@ -1,0 +1,58 @@
+header {
+	margin: 15px;
+	padding: 10px;
+	background-color: #948c75;
+	border: solid;
+	border-radius: 15px;
+	border-color: #7a6a53;
+	display: grid;
+	grid-template-columns: repeat( 3 , 1.5fr );
+	grid-template-rows: 70px 60px;
+	grid-template-areas: "h1 h1 navImagen"
+    "nav nav nav";
+
+
+	.h1 {
+		font-size: 25px;
+		color: #d5ded9;
+		font-family: 'Electrolize', sans-serif;
+		justify-self: center;
+		align-self: center;
+		grid-area: h1 ;
+		text-transform: uppercase ;
+	}
+
+
+	nav {
+		grid-area: nav ;
+		justify-self: center;
+		align-self: center;
+		.navLink {
+			margin: 5px;
+			padding: 5px;
+			grid-area: navLink navLink ;
+			.link {
+				display: inline;
+				font-size: 20px;
+				font-family: 'Electrolize', sans-serif;
+				color: #7a6a53;
+				:hover {
+					color: #99b2b7;
+				}
+				a:visited {
+					color: #d5ded9 ;
+				}
+				a:link {
+					color: #d5ded9;
+				}
+			}
+		}
+	}
+
+    
+    .headerImagen {
+		grid-area: navImagen ;
+		justify-self: center;
+		align-self: center;
+	}
+}
