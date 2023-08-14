@@ -67,20 +67,30 @@ main h3 {
   text-align: center;
   text-transform: uppercase;
 }
-
 main section article .listaDescriptiva {
   text-align: center;
   text-transform: uppercase;
 }
-
 main section article h4 {
   font-family: "Electrolize", sans-serif;
   text-align: center;
   text-transform: uppercase;
 }
-
 main section article .buscaRemoto {
   font-family: "Electrolize", sans-serif;
+}
+
+footer {
+  margin: 20px;
+  padding: 15px;
+  background-color: #948c75;
+  border-radius: 10px;
+  border: solid;
+  border-color: #7a6a53;
+  font-family: "Electrolize", sans-serif;
+  text-transform: uppercase;
+  display: grid;
+  flex-flow: row nowrap;
 }
 
 /*# sourceMappingURL=style.css.map */
