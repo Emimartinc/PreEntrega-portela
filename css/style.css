@@ -79,7 +79,8 @@ main section article h4 {
 main section article .buscaRemoto {
   font-family: "Electrolize", sans-serif;
 }
-main .mainFormulario .formulario {
+
+.mainformulario .formulario {
   display: inline-block;
   border-color: #7a6a53;
   font-family: "Electrolize", sans-serif;
@@ -88,10 +89,10 @@ main .mainFormulario .formulario {
   justify-self: center;
   align-items: center;
 }
-main .mainFormulario .formulario select {
+.mainformulario .formulario select {
   text-transform: uppercase;
 }
-main .mainFormulario .formulario .btnEnvio {
+.mainformulario .formulario .btnEnvio {
   border-color: #7a6a53;
   border: solid;
   background-color: #948c75;
