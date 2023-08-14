@@ -62,21 +62,21 @@ header .headerImagen {
   align-self: center;
 }
 
-main h3 {
+.mainIndex h3 {
   font-family: "Electrolize", sans-serif;
   text-align: center;
   text-transform: uppercase;
 }
-main section article .listaDescriptiva {
+.mainIndex section article .listaDescriptiva {
   text-align: center;
   text-transform: uppercase;
 }
-main section article h4 {
+.mainIndex section article h4 {
   font-family: "Electrolize", sans-serif;
   text-align: center;
   text-transform: uppercase;
 }
-main section article .buscaRemoto {
+.mainIndex section article .buscaRemoto {
   font-family: "Electrolize", sans-serif;
 }
 
