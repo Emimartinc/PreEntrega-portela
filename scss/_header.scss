@@ -1,53 +1,60 @@
 header {
 	margin: 15px;
 	padding: 10px;
-	background-color: #948c75;
+	background-color: $bg-btn;
 	border: solid;
 	border-radius: 15px;
-	border-color: #7a6a53;
+	border-color: $back-border-color;
 	display: grid;
-	grid-template-columns: repeat( 3 , 1.5fr );
+	grid-template-columns: repeat(3, 1.5fr);
 	grid-template-rows: 70px 60px;
 	grid-template-areas: "h1 h1 navImagen"
-    "nav nav nav";
+		"nav nav nav";
 
 
 	.h1 {
 		font-size: 25px;
 		color: #d5ded9;
-		font-family: 'Electrolize', sans-serif;
+		font-family: $fuente-principal;
 		justify-self: center;
 		align-self: center;
-		grid-area: h1 ;
-		text-transform: uppercase ;
+		grid-area: h1;
+		text-transform: uppercase;
 	}
 
 
 	nav {
-		grid-area: nav ;
+		grid-area: nav;
 		justify-self: center;
 		align-self: center;
+
 		ul {
 			margin: 5px;
 			padding: 5px;
+
 			li {
 				display: inline;
 				font-size: 20px;
 
-				a	{ 
+				a {
 					text-decoration: none;
-					color: #d5ded9 ;
+					color: $blanquito ;
 
 				}
-				
-				
+
+				a:hover {
+					color: $celestito;
+				}
+
+
+
 			}
 		}
 	}
 
-    
-    .headerImagen {
-		grid-area: navImagen ;
+
+	.headerImagen {
+		grid-area: navImagen;
 		justify-self: center;
 		align-self: center;
 	}
