@@ -49,19 +49,15 @@ header nav ul li a {
   text-decoration: none;
   color: #d5ded9;
 }
-header nav ul li a a:hover {
-  color: #99b2b7;
-}
-header nav ul li a a:visited {
-  color: #d5ded9;
-}
-header nav ul li a a:link {
-  color: #99b2b7;
-}
 header .headerImagen {
   grid-area: navImagen;
   justify-self: center;
   align-self: center;
+}
+
+main h2 {
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .mainIndex {
