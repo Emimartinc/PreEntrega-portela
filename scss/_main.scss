@@ -55,28 +55,39 @@
     }
 
 }
-
-.mainCartas {
-
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    column-gap: 5px;
-    row-gap: 25px;
-
-    .textoCartas {
-        text-transform: uppercase;
+main   {
+    h2  { 
         text-align: center;
-       
-
-
-    }
-
-    .carta {
-        background-color: #7a6a53;
-       
-
+        text-transform: uppercase;
 
     }
 
 }
+.mainCartas     {
+    .Cartas {
+
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        column-gap: 5px;
+        row-gap: 25px;
+    
+    
+        .textoCartas {
+            text-transform: uppercase;
+            text-align: center;
+           
+    
+    
+        }
+    
+        .carta {
+            background-color: #7a6a53;
+           
+    
+    
+        }
+    
+    }
+}
+

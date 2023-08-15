@@ -33,17 +33,23 @@ header {
 			li {
 				display: inline;
 				font-size: 20px;
-				font-family: 'Electrolize', sans-serif;
-				color: #7a6a53;
-				a:hover {
-					color: #99b2b7;
-				}
-				a:visited {
+
+				a	{ 
+					text-decoration: none;
 					color: #d5ded9 ;
+
+					a:hover {
+						color: #99b2b7;
+					}
+					a:visited {
+						color: #d5ded9 ;
+					}
+					a:link {
+						color:#99b2b7 ;
+					}
+
 				}
-				a:link {
-					color: #d5ded9;
-				}
+				
 			}
 		}
 	}

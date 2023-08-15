@@ -44,17 +44,19 @@ header nav ul {
 header nav ul li {
   display: inline;
   font-size: 20px;
-  font-family: "Electrolize", sans-serif;
-  color: #7a6a53;
 }
-header nav ul li a:hover {
+header nav ul li a {
+  text-decoration: none;
+  color: #d5ded9;
+}
+header nav ul li a a:hover {
   color: #99b2b7;
 }
-header nav ul li a:visited {
+header nav ul li a a:visited {
   color: #d5ded9;
 }
-header nav ul li a:link {
-  color: #d5ded9;
+header nav ul li a a:link {
+  color: #99b2b7;
 }
 header .headerImagen {
   grid-area: navImagen;
@@ -96,18 +98,23 @@ header .headerImagen {
   padding: 10px;
 }
 
-.mainCartas {
+main h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.mainCartas .Cartas {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
   column-gap: 5px;
   row-gap: 25px;
 }
-.mainCartas .textoCartas {
+.mainCartas .Cartas .textoCartas {
   text-transform: uppercase;
   text-align: center;
 }
-.mainCartas .carta {
+.mainCartas .Cartas .carta {
   background-color: #7a6a53;
 }
 
