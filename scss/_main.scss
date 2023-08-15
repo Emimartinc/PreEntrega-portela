@@ -1,36 +1,40 @@
+main {
+    font-family:'Electrolize', sans-serif;
+}
 .mainIndex {
+    text-transform: uppercase;
 
 
     h3 {
-        font-family: 'Electrolize', sans-serif;
+        /*font-family: 'Electrolize', sans-serif;*/
         text-align: center;
-        text-transform: uppercase;
+        
     }
 
     section article .listaDescriptiva {
         text-align: center;
-        text-transform: uppercase;
+        
     }
 
-    section article h4 {
-        font-family: "Electrolize", sans-serif;
+    section .bsqdRemoto h4 {
+        /*font-family: "Electrolize", sans-serif;*/
         text-align: center;
-        text-transform: uppercase;
+        
     }
 
-    section article .buscaRemoto {
-        font-family: "Electrolize", sans-serif;
+    section .bsqdRemoto .buscaRemoto {
+        /*font-family: "Electrolize", sans-serif;*/
 
     }
 
-    section article .buscaRemoto .btnRemoto {
+    section .bsqdRemoto .buscaRemoto .btnRemoto {
 
         border-color: #7a6a53;
         border: solid;
         background-color: #948c75;
         border-radius: 5px;
         color: #99b2b7;
-        text-transform: uppercase;
+        
 
     }
 
@@ -44,7 +48,7 @@
     .formulario {
         display: inline-block;
         border-color: #7a6a53;
-        font-family: 'Electrolize', sans-serif;
+        /*font-family: 'Electrolize', sans-serif;*/
         text-transform: uppercase;
         align-self: center;
         justify-self: center;
@@ -71,3 +75,27 @@
     }
 
 }
+
+.mainCartas {
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    column-gap: 5px;
+    row-gap: 25px;
+    .textoCartas {
+        text-transform: uppercase;
+        /*font-family: 'Electrolize', sans-serif;*/
+    
+    
+    }
+
+    .carta{
+        background-color:#7a6a53;
+        text-align: center;
+
+
+    }
+
+}
+
