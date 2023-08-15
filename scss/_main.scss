@@ -1,21 +1,22 @@
-main   
-    h2  { 
-        text-align: center;
-        text-transform: uppercase;
+main h2 {
+    text-align: center;
+    text-transform: uppercase;
 
-    }
+}
 
 .mainIndex {
     text-transform: uppercase;
 
 
-    h3 , section article .listaDescriptiva , section .bsqdRemoto h4 {
+    h3,
+    section article .listaDescriptiva,
+    section .bsqdRemoto h4 {
 
         text-align: center;
 
     }
 
- 
+
 
     section .bsqdRemoto .buscaRemoto .btnRemoto {
 
@@ -43,7 +44,7 @@ main
         align-self: center;
         justify-self: center;
         align-items: center;
-        
+
         select option {
             text-transform: uppercase;
         }
@@ -66,8 +67,8 @@ main
 
 }
 
-main   {
-    h2  { 
+main {
+    h2 {
         text-align: center;
         text-transform: uppercase;
 
@@ -75,7 +76,8 @@ main   {
 
 
 }
-.mainCartas     {
+
+.mainCartas {
     .Cartas {
 
         display: flex;
@@ -83,23 +85,22 @@ main   {
         justify-content: space-between;
         column-gap: 5px;
         row-gap: 25px;
-    
-    
+
+
         .textoCartas {
             text-transform: uppercase;
             text-align: center;
-           
-    
-    
+
+
+
         }
-    
+
         .carta {
             background-color: #7a6a53;
-           
-    
-    
+
+
+
         }
-    
+
     }
 }
-

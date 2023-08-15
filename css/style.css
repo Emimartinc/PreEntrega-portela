@@ -63,7 +63,9 @@ main h2 {
 .mainIndex {
   text-transform: uppercase;
 }
-.mainIndex h3, .mainIndex section article .listaDescriptiva, .mainIndex section .bsqdRemoto h4 {
+.mainIndex h3,
+.mainIndex section article .listaDescriptiva,
+.mainIndex section .bsqdRemoto h4 {
   text-align: center;
 }
 .mainIndex section .bsqdRemoto .buscaRemoto .btnRemoto {
