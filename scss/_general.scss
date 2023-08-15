@@ -1,6 +1,9 @@
+$color-fondo:  #d9ceb2;
+$fuente-principal: 'Electrolize', sans-serif;
 body {
 
-    background-color: #d9ceb2 ;
-    font-family: 'Electrolize', sans-serif;
+    background-color: $color-fondo;
+    font-family: $fuente-principal;
 
 }
+

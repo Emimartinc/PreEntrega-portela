@@ -55,17 +55,17 @@ header .headerImagen {
   align-self: center;
 }
 
+main {
+  text-transform: uppercase;
+}
 main h2 {
   text-align: center;
   text-transform: uppercase;
 }
 
-.mainIndex {
-  text-transform: uppercase;
-}
-.mainIndex h3,
+.mainIndex h2,
 .mainIndex section article .listaDescriptiva,
-.mainIndex section .bsqdRemoto h4 {
+.mainIndex section .bsqdRemoto h3 {
   text-align: center;
 }
 .mainIndex section .bsqdRemoto .buscaRemoto .btnRemoto {
@@ -77,14 +77,13 @@ main h2 {
 }
 
 .mainFormulario {
-  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 .mainFormulario .formulario {
   display: inline-block;
   border-color: #7a6a53;
-  align-self: center;
-  justify-self: center;
-  align-items: center;
 }
 .mainFormulario .formulario select option {
   text-transform: uppercase;
@@ -99,11 +98,6 @@ main h2 {
   padding: 10px;
 }
 
-main h2 {
-  text-align: center;
-  text-transform: uppercase;
-}
-
 .mainCartas .Cartas {
   display: flex;
   flex-flow: row wrap;
@@ -112,7 +106,6 @@ main h2 {
   row-gap: 25px;
 }
 .mainCartas .Cartas .textoCartas {
-  text-transform: uppercase;
   text-align: center;
 }
 .mainCartas .Cartas .carta {

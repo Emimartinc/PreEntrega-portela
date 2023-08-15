@@ -1,16 +1,24 @@
-main h2 {
-    text-align: center;
+$back-border-color:  #7a6a53;
+$bg-btn: #948c75;
+$celestito: #99b2b7;
+
+main {
     text-transform: uppercase;
+    h2 {
+        text-align: center;
+        text-transform: uppercase;
+
+    }
+
 
 }
-
 .mainIndex {
-    text-transform: uppercase;
+   
 
 
-    h3,
+    h2,
     section article .listaDescriptiva,
-    section .bsqdRemoto h4 {
+    section .bsqdRemoto h3 {
 
         text-align: center;
 
@@ -20,11 +28,11 @@ main h2 {
 
     section .bsqdRemoto .buscaRemoto .btnRemoto {
 
-        border-color: #7a6a53;
+        border-color:$back-border-color;
         border: solid;
-        background-color: #948c75;
+        background-color: $bg-btn;
         border-radius: 5px;
-        color: #99b2b7;
+        color: $celestito;
 
 
     }
@@ -34,16 +42,17 @@ main h2 {
 
 
 .mainFormulario {
+    display: flex;
+    justify-content: center;
+    align-content: center;
 
-    text-transform: uppercase;
+    
 
 
     .formulario {
         display: inline-block;
-        border-color: #7a6a53;
-        align-self: center;
-        justify-self: center;
-        align-items: center;
+        border-color: $back-border-color;
+        
 
         select option {
             text-transform: uppercase;
@@ -51,11 +60,11 @@ main h2 {
 
 
         .btnEnvio {
-            border-color: #7a6a53;
+            border-color: $back-border-color;
             border: solid;
-            background-color: #948c75;
+            background-color: $bg-btn   ;
             border-radius: 5px;
-            color: #99b2b7;
+            color: $celestito;
             margin: 15px;
             padding: 10px;
 
@@ -67,15 +76,6 @@ main h2 {
 
 }
 
-main {
-    h2 {
-        text-align: center;
-        text-transform: uppercase;
-
-    }
-
-
-}
 
 .mainCartas {
     .Cartas {
@@ -88,7 +88,7 @@ main {
 
 
         .textoCartas {
-            text-transform: uppercase;
+            
             text-align: center;
 
 
@@ -96,7 +96,7 @@ main {
         }
 
         .carta {
-            background-color: #7a6a53;
+            background-color: $back-border-color;
 
 
 
