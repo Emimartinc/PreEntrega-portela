@@ -1,8 +1,8 @@
 main {
     text-transform: uppercase;
-    h2 {
+    h2 , .textoUbi{
         text-align: center;
-        text-transform: uppercase;
+       
 
     }
 
@@ -29,6 +29,10 @@ main {
         background-color: $bg-btn;
         border-radius: 5px;
         color: $celestito;
+
+        &:hover {   
+            background-color:$color-fondo;
+        }
 
 
     }
@@ -64,6 +68,10 @@ main {
             margin: 15px;
             padding: 10px;
 
+            &:hover {   
+                background-color: $color-fondo;
+            }
+
         }
 
 
@@ -79,6 +87,7 @@ main {
         display: flex;
         flex-flow: row wrap;
         justify-content: space-between;
+        align-items: center;
         column-gap: 5px;
         row-gap: 25px;
 

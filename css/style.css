@@ -64,9 +64,8 @@ header .headerImagen {
 main {
   text-transform: uppercase;
 }
-main h2 {
+main h2, main .textoUbi {
   text-align: center;
-  text-transform: uppercase;
 }
 
 .mainIndex h2,
@@ -80,6 +79,9 @@ main h2 {
   background-color: #948c75;
   border-radius: 5px;
   color: #99b2b7;
+}
+.mainIndex section .bsqdRemoto .buscaRemoto .btnRemoto:hover {
+  background-color: #d9ceb2;
 }
 
 .mainFormulario {
@@ -103,11 +105,15 @@ main h2 {
   margin: 15px;
   padding: 10px;
 }
+.mainFormulario .formulario .btnEnvio:hover {
+  background-color: #d9ceb2;
+}
 
 .mainCartas .Cartas {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+  align-items: center;
   column-gap: 5px;
   row-gap: 25px;
 }
