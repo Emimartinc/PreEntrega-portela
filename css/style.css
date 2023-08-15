@@ -19,6 +19,8 @@ header {
   border-radius: 15px;
   border-color: #7a6a53;
   display: grid;
+  justify-content: center;
+  align-content: center;
   grid-template-columns: repeat(3, 1.5fr);
   grid-template-rows: 70px 60px;
   grid-template-areas: "h1 h1 navImagen" "nav nav nav";
@@ -32,24 +34,25 @@ header .h1 {
   grid-area: h1;
   text-transform: uppercase;
 }
-header nav {
-  grid-area: nav;
+header .nvNav {
   justify-self: center;
   align-self: center;
+  grid-area: nav;
+  justify-content: space-around;
 }
-header nav ul {
+header .nvNav ul {
   margin: 5px;
   padding: 5px;
 }
-header nav ul li {
+header .nvNav ul li {
   display: inline;
   font-size: 20px;
 }
-header nav ul li a {
+header .nvNav ul li a {
   text-decoration: none;
   color: #d5ded9;
 }
-header nav ul li a:hover {
+header .nvNav ul li a:hover {
   color: #99b2b7;
 }
 header .headerImagen {

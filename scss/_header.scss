@@ -6,10 +6,13 @@ header {
 	border-radius: 15px;
 	border-color: $back-border-color;
 	display: grid;
+	justify-content: center;
+	align-content: center;
 	grid-template-columns: repeat(3, 1.5fr);
 	grid-template-rows: 70px 60px;
 	grid-template-areas: "h1 h1 navImagen"
 		"nav nav nav";
+
 
 
 	.h1 {
@@ -22,11 +25,12 @@ header {
 		text-transform: uppercase;
 	}
 
-
-	nav {
-		grid-area: nav;
+	.nvNav {
 		justify-self: center;
 		align-self: center;
+		grid-area: nav;
+		justify-content: space-around;
+		
 
 		ul {
 			margin: 5px;
@@ -53,9 +57,20 @@ header {
 	}
 
 
+
+
+
+
+
+
+
+
+
+
 	.headerImagen {
 		grid-area: navImagen;
 		justify-self: center;
 		align-self: center;
 	}
+
 }
