@@ -79,6 +79,14 @@ header .headerImagen {
 .mainIndex section article .buscaRemoto {
   font-family: "Electrolize", sans-serif;
 }
+.mainIndex section article .buscaRemoto .btnRemoto {
+  border-color: #7a6a53;
+  border: solid;
+  background-color: #948c75;
+  border-radius: 5px;
+  color: #99b2b7;
+  text-transform: uppercase;
+}
 
 .mainFormulario .formulario {
   display: inline-block;
