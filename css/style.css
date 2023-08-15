@@ -39,7 +39,6 @@ header nav {
 header nav .navLink {
   margin: 5px;
   padding: 5px;
-  grid-area: navLink navLink;
 }
 header nav .navLink .link {
   display: inline;
@@ -70,18 +69,13 @@ main {
   text-transform: uppercase;
 }
 .mainIndex h3 {
-  /*font-family: 'Electrolize', sans-serif;*/
   text-align: center;
 }
 .mainIndex section article .listaDescriptiva {
   text-align: center;
 }
 .mainIndex section .bsqdRemoto h4 {
-  /*font-family: "Electrolize", sans-serif;*/
   text-align: center;
-}
-.mainIndex section .bsqdRemoto .buscaRemoto {
-  /*font-family: "Electrolize", sans-serif;*/
 }
 .mainIndex section .bsqdRemoto .buscaRemoto .btnRemoto {
   border-color: #7a6a53;
@@ -91,17 +85,15 @@ main {
   color: #99b2b7;
 }
 
+.mainFormulario {
+  text-transform: uppercase;
+}
 .mainFormulario .formulario {
   display: inline-block;
   border-color: #7a6a53;
-  /*font-family: 'Electrolize', sans-serif;*/
-  text-transform: uppercase;
   align-self: center;
   justify-self: center;
   align-items: center;
-}
-.mainFormulario .formulario select {
-  text-transform: uppercase;
 }
 .mainFormulario .formulario .btnEnvio {
   border-color: #7a6a53;
@@ -116,17 +108,16 @@ main {
 .mainCartas {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   column-gap: 5px;
   row-gap: 25px;
 }
 .mainCartas .textoCartas {
   text-transform: uppercase;
-  /*font-family: 'Electrolize', sans-serif;*/
+  text-align: center;
 }
 .mainCartas .carta {
   background-color: #7a6a53;
-  text-align: center;
 }
 
 footer {
