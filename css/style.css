@@ -84,6 +84,9 @@ main h2 {
   justify-self: center;
   align-items: center;
 }
+.mainFormulario .formulario select option {
+  text-transform: uppercase;
+}
 .mainFormulario .formulario .btnEnvio {
   border-color: #7a6a53;
   border: solid;
