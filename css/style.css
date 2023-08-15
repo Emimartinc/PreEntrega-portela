@@ -37,23 +37,23 @@ header nav {
   justify-self: center;
   align-self: center;
 }
-header nav .navLink {
+header nav ul {
   margin: 5px;
   padding: 5px;
 }
-header nav .navLink .link {
+header nav ul li {
   display: inline;
   font-size: 20px;
   font-family: "Electrolize", sans-serif;
   color: #7a6a53;
 }
-header nav .navLink .link a:hover {
+header nav ul li a:hover {
   color: #99b2b7;
 }
-header nav .navLink .link a:visited {
+header nav ul li a:visited {
   color: #d5ded9;
 }
-header nav .navLink .link a:link {
+header nav ul li a:link {
   color: #d5ded9;
 }
 header .headerImagen {
