@@ -80,7 +80,7 @@ header .headerImagen {
   font-family: "Electrolize", sans-serif;
 }
 
-.mainformulario .formulario {
+.mainFormulario .formulario {
   display: inline-block;
   border-color: #7a6a53;
   font-family: "Electrolize", sans-serif;
@@ -89,10 +89,10 @@ header .headerImagen {
   justify-self: center;
   align-items: center;
 }
-.mainformulario .formulario select {
+.mainFormulario .formulario select {
   text-transform: uppercase;
 }
-.mainformulario .formulario .btnEnvio {
+.mainFormulario .formulario .btnEnvio {
   border-color: #7a6a53;
   border: solid;
   background-color: #948c75;
