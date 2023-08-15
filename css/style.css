@@ -47,7 +47,7 @@ header nav .navLink .link {
   font-family: "Electrolize", sans-serif;
   color: #7a6a53;
 }
-header nav .navLink .link :hover {
+header nav .navLink .link a:hover {
   color: #99b2b7;
 }
 header nav .navLink .link a:visited {
