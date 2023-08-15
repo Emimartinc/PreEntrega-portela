@@ -8,6 +8,7 @@
 }
 body {
   background-color: #d9ceb2;
+  font-family: "Electrolize", sans-serif;
 }
 
 header {
@@ -61,20 +62,10 @@ header .headerImagen {
   align-self: center;
 }
 
-main {
-  font-family: "Electrolize", sans-serif;
-}
-
 .mainIndex {
   text-transform: uppercase;
 }
-.mainIndex h3 {
-  text-align: center;
-}
-.mainIndex section article .listaDescriptiva {
-  text-align: center;
-}
-.mainIndex section .bsqdRemoto h4 {
+.mainIndex h3, .mainIndex section article .listaDescriptiva, .mainIndex section .bsqdRemoto h4 {
   text-align: center;
 }
 .mainIndex section .bsqdRemoto .buscaRemoto .btnRemoto {
