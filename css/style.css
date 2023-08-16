@@ -35,8 +35,6 @@ header .h1 {
   text-transform: uppercase;
 }
 header .nvNav {
-  justify-self: center;
-  align-self: center;
   grid-area: nav;
   justify-content: space-around;
 }
@@ -57,8 +55,6 @@ header .nvNav ul li a:hover {
 }
 header .headerImagen {
   grid-area: navImagen;
-  justify-self: center;
-  align-self: center;
 }
 
 main {
@@ -96,7 +92,7 @@ main h2, main .textoUbi {
 .mainFormulario .formulario select option {
   text-transform: uppercase;
 }
-.mainFormulario .formulario .btnEnvio {
+.mainFormulario .formulario .btnEnvio, .mainFormulario .formulario .btnClean {
   border-color: #7a6a53;
   border: solid;
   background-color: #948c75;
@@ -105,10 +101,9 @@ main h2, main .textoUbi {
   margin: 15px;
   padding: 10px;
 }
-.mainFormulario .formulario .btnEnvio:hover {
+.mainFormulario .formulario .btnEnvio:hover, .mainFormulario .formulario .btnClean:hover {
   background-color: #d9ceb2;
 }
-
 .mainCartas .Cartas {
   display: flex;
   flex-flow: row wrap;

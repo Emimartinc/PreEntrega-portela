@@ -1,0 +1,12 @@
+@mixin just-alig-self{
+    justify-self: center;
+		align-self: center;
+
+}
+
+.nvNav { 
+    @include just-alig-self; 
+}
+.navHeader {
+    @include just-alig-self;
+}

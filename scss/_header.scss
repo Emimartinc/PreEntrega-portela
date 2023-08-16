@@ -26,8 +26,6 @@ header {
 	}
 
 	.nvNav {
-		justify-self: center;
-		align-self: center;
 		grid-area: nav;
 		justify-content: space-around;
 		
@@ -69,8 +67,6 @@ header {
 
 	.headerImagen {
 		grid-area: navImagen;
-		justify-self: center;
-		align-self: center;
 	}
 
 }

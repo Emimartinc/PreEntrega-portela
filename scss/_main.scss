@@ -73,10 +73,17 @@ main {
             }
 
         }
+        .btnClean {
+        @extend .btnEnvio ;
+           
+        }
+
+
+     }
 
 
 
-    }
+    
 
 }
 
