@@ -111,6 +111,8 @@ main h2, main .textoUbi {
   align-items: center;
   column-gap: 5px;
   row-gap: 25px;
+  border-radius: 15px;
+  border-color: #99b2b7;
 }
 .mainCartas .Cartas .textoCartas {
   text-align: center;
